@@ -1,0 +1,44 @@
+header{
+  background-color: aliceblue;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  max-width: 100%;
+  
+
+   
+
+  
+}
+
+
+
+nav {
+  display: flex;
+  align-items: center;
+  padding: 16px 120px;
+  
+  justify-content: space-between;
+
+  
+}
+ul{
+  list-style: none;
+  display: flex;
+  gap: 34px;
+  color: black;
+  font-family: bold;
+
+}
+li, a{
+  text-decoration: none;
+}
+.btn{
+  background-color: green;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+}
