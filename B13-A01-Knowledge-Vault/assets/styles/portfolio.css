@@ -40,7 +40,7 @@ li, a{
 }
 #banner{
   background-image: url(../hero.png);
-  border: 2px solid red;
+ 
   max-width: 1745px;
   height: 600px;
   background-size: cover;
@@ -48,6 +48,7 @@ li, a{
   display: flex;
   align-items: center;
   justify-content: center;
+  text-align: center;
 }
 #banner.banner-content{
   max-width: 1400px;
@@ -118,3 +119,68 @@ li, a{
   gap: 16px;
  
 }
+#about,.about1{
+  font-size: 48px;
+  font-weight: bold;
+  color: #001931;
+  text-align: center;
+}#about,p{
+  font-size: 16px;
+  color: #627382;
+  font-weight: 400px;
+ 
+
+}
+#about{
+  margin-top:  30px;
+  gap: 20px;
+  
+  
+}
+.img-color{
+  background-color: #f95555;
+  padding: 16px;
+  border-radius: 50%;
+  
+  
+}.skill-card{
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+  margin: 0px auto;
+  max-width: 1400px;
+  height: 300px;
+  
+  
+}
+.skill-1{
+  align-items: center;
+  text-align: center;
+  max-width: 400px;
+  padding: 30px;
+  background-color: white;
+  box-shadow: 0 8px 12px  0px rgba,( 0, 0, 0,1);
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  border-bottom: none;
+  
+  
+ 
+}
+.color{
+  background-color: #fbfbfb;
+}
+
+  
+
+  
+
+ 
+ 
+ 
+
+
+ 
+ 
+
