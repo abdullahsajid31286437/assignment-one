@@ -104,22 +104,26 @@ li, a{
   border-radius: 5px;
   cursor: pointer;
 }
-#banner.banner-content,.btn3{
+.btn3{
   background: none;
   border-color: white;
   border: 2px solid white;
   color: white;
   border-radius: 5px;
-  justify-content: right;
-  padding: 12px 16px 12px 16px;
+  padding: 12px 16px;
   cursor: pointer;
+
+
+
+
 }
 #banner.banner-content,.btn0{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   max-width: 465px;
   height: 52px;
   gap: 16px;
+  margin: 0 auto;
  
 }
 #about,.about1{
